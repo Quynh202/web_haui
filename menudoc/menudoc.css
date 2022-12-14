@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1366px;
+    margin: auto;
+    background-color: rgb(184, 248, 111);
+}
+
+.banner{
+    height: 100px;
+}
+
+.banner img{
+    width: 100px;
+    height: 100px;
+}
+
+.banner h1{
+    float: left;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 350px;
+}
+
+.content{
+    height: 500px;
+    background-color: rgb(59, 237, 74);
+}
+
+.content .menu{
+    float: left;
+    display: block;
+    height: 300px;
+    width: 200px;
+}
+
+.menu li{
+    position: relative;
+    height: 50px;
+    background-color: rgb(0, 225, 255);
+    border-bottom: 2px solid;
+    list-style-type: none;
+}
+
+.menu li a{
+    font-size: 18px;
+    padding-left: 10px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: rgb(112, 220, 220);
+}
+
+.menu .trng{
+    display: none;
+    position: absolute;
+    margin-left: 200px;
+    width: 200px;
+    margin-top: -52px;
+    border: 2px solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu li:hover .trng{
+    display: block;
+}
+
+.content .menuphu{
+    float: left;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+.menuphu h2{
+    margin-bottom: 10px;
+}
+
+.menuphu li a{
+    text-decoration: none;
+    line-height: 30px;
+    color: black;
+}
+
+.menuphu li:hover a{
+    color: rgb(9, 101, 200);
+}
+
+.content img{
+    float: left;
+    margin-top: 50px;
+}
+
+.content .blog{
+    float: left;
+    width: 450px;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-left: 20px;
+    line-height: 30px;
+}
